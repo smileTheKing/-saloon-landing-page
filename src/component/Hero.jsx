@@ -9,15 +9,15 @@ const Hero = () => {
         
         <div className="w-full grid md:grid-cols-2 place-items-center px-4  xl:px-0">
           <div className="pt-8 lg:pt-2 ">
-            <h1 className="text-4xl  lg:text-6xl capitalize font-normal font-serif  ">It's time to start your style with perfection</h1>
+            <h1 className="text-6xl  lg:text-6xl capitalize font-normal font-serif  ">It's time to start your style with perfection</h1>
 
-            <p className="pt-12">
+            <p className="pt-8">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Voluptate quae culpa non et nulla blanditiis nemo dolorem! Autem
               adipisci doloremque consequuntur, molestias nihil odio?
             </p>
           </div>     
-            <img src={heroImage} alt="hero" className="w-[90%] lg:w-[80%] h-full -z-10" />
+            <img src={heroImage} alt="hero" className="w-[100%] lg:w-[80%] h-full -z-10" />
         </div>
 
         <div className="w-full lg:absolute bottom-14  left-0 right-0 h-[240px] bg-white text-black lg:rounded-md place-items-center grid px-4 border-[1.5px] border-[#e14282]/50 ">
