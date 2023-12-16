@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="bg-gradient-to-r from-[#e14282] to-[#f4aed1] h-full lg:h-[550px] w-full absolute -z-10" />
       <div className="max-w-[1024px] w-full mx-auto flex flex-col lg:h-screen  pt-8 relative">
         
-        <div className="w-full grid md:grid-cols-2 place-items-center px-4 lg:px-0">
+        <div className="w-full grid md:grid-cols-2 place-items-center px-4  xl:px-0">
           <div className="pt-8 lg:pt-2 ">
             <h1 className="text-6xl capitalize font-normal font-serif  ">It's time to start your style with perfection</h1>
 

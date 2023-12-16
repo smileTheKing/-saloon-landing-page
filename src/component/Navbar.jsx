@@ -11,7 +11,7 @@ const Navbar = () => {
   }
   return (
     <div className=" w-full text-white bg-gradient-to-r from-[#e14282] to-[#f4aed1] ">
-    <div className=" max-w-[1024px] flex-col w-full h-24 mx-auto flex justify-between px-4 lg:px-0">
+    <div className=" max-w-[1024px] flex-col w-full h-24 mx-auto flex justify-between px-4 xl:px-0">
      
     <div className="flex w-full justify-between items-center py-4">
         <div className="flex gap-2">
@@ -42,9 +42,8 @@ const Navbar = () => {
         }
         
       </div>
-      {nav?(
-  <div className="bg-black/50  md:hidden  fixed top-0 w-[100%] h-full left-0 z-50  ">
-     
+ 
+  <div className={nav?"bg-black/50  md:hidden   fixed top-0 w-[100%] ease-in-out duration-150 h-full left-0 z-50  ":'fixed ease-in-out duration-150  left-[-100%]'}>
     <ul className="flex flex-col px-4   bg-white w-[70%] h-full text-[#e14282] gap-4 font-medium">
     <h1 className="w-full text-[#e14282] text-4xl font-bold py-12 blur-none">Salon</h1>
     <AiOutlineClose size={30}  className="lg:hidden absolute right-2 text-white top-2 w-fit"  onClick={handleNav}/>
@@ -56,7 +55,7 @@ const Navbar = () => {
   </ul>
   </div>
 
-  ):(null)}
+  
 
 
       
