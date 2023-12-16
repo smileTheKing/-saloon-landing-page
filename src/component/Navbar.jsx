@@ -38,7 +38,7 @@ const Navbar = () => {
 
         
         
-       {!nav&& <AiOutlineMenu size={30}  className="md:hidden  w-fit"  onClick={handleNav}/>
+       {!nav&& <AiOutlineMenu size={30}  className="md:hidden "  onClick={handleNav}/>
         }
         
       </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
   <div className={nav?"bg-black/50  md:hidden   fixed top-0 w-[100%] ease-in-out duration-150 h-full left-0 z-50  ":'fixed ease-in-out duration-150  left-[-100%]'}>
     <ul className="flex flex-col px-4   bg-white w-[70%] h-full text-[#e14282] gap-4 font-medium">
     <h1 className="w-full text-[#e14282] text-4xl font-bold py-12 blur-none">Salon</h1>
-    <AiOutlineClose size={30}  className="lg:hidden absolute right-2 text-white top-2 w-fit"  onClick={handleNav}/>
+    <AiOutlineClose size={30}  className="lg:hidden absolute right-0 text-white top-2"  onClick={handleNav}/>
           <li className="border-b py-2">Home</li>
           <li className="border-b py-2">Beauty</li>
           <li className="border-b py-2">Galley</li>
