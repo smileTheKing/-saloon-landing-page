@@ -12,7 +12,7 @@ const Newletter = () => {
 
           <div className="flex flex-row h-[50px] border border-[#fff] w-full">
             <input type="text" placeholder="Enter you email" className="w-full bg-inherit px-2"/>
-            <input type="button" value='Subscribe' className="bg-white px-4 text-[#e14282] "/>
+            <input type="button" value='Subscribe' className="bg-white h-full px-4 text-[#e14282] "/>
           </div>
         </div>
       </div>
