@@ -46,18 +46,15 @@ const Navbar = () => {
           )}
         </div>
 
-        <div
-          className= "bg-black/50  md:hidden   fixed top-0 w-[100%]  h-full left-0 z-50  "
-            
-        >
+        <div className={nav?"bg-black/50  md:hidden   fixed top-0 w-[100%]  h-full left-0 z-50  ":"fixed left-[100%]"}>
           <ul
             className={
               nav
-                ? "flex flex-col px-4   bg-white w-[70%] h-full text-[#e14282] gap-4 font-medium ease-in-out delay-300 fixed left-0 duration-150"
+                ? "flex flex-col px-4   bg-white w-[70%] h-full text-[#e14282] gap-4 font-medium ease-in-out delay-75 left-0 duration-150"
                 : " fixed left-[-100%] ease-in-out duration-150 w-[-100%]"
             }
           >
-            <h1 className="w-full text-[#e14282] text-4xl font-bold py-12 blur-none">
+            <h1 className="w-full text-[#e14282] text-4xl font-bold py-16 blur-none">
               Salon
             </h1>
             <AiOutlineClose
