@@ -9,7 +9,7 @@ const Hero = () => {
         
         <div className="w-full grid md:grid-cols-3 place-items-center px-4  xl:px-0">
           <div className="pt-8 lg:pt-2  col-span-2">
-            <h1 className="text-3xl  sm:text-5xl  lg:text-6xl capitalize font-serif  ">It's time to start your style with perfection</h1>
+            <h1 className="text-4xl  sm:text-5xl  lg:text-6xl capitalize font-serif  ">It's time to start your style with perfection</h1>
 
             <p className="pt-8">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
