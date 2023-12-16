@@ -18,8 +18,8 @@ const Card = ({title,img,icon,price})=>{
         <h2 className='font-bold text-2xl w-full whitespace-nowrap'>{title?title:'Make Up'} </h2>
        
         </div>
-            <p className='font-bold py-1 w-full text-[#774659]/70'>{price?price:" USD $100.00"}</p>
-            <button className='font-medium border-2 w-full py-2 px-4'>Book Appointment</button>
+            <p className='font-bold py-1 w-full text-[#774659]/70'>{price?`$${price}.00`:" USD $100.00"}</p>
+            <button className='font-medium border-2 w-full py-2 px-4 rounded'>Book Appointment</button>
         </div>    
     </div>
     )
@@ -38,12 +38,12 @@ const Service = () => {
             </div>
 
             <div className="bottom grid sm:grid-cols-2 md:grid-cols-3 gap-8 w-full">
-               <Card img={heroImage}/>
-               <Card/>
-               <Card/>
-               <Card img={heroImage}/>
-               <Card/>
-               <Card/>
+               <Card price={150}img={heroImage}/>
+               <Card price={300}/>
+               <Card price={200}/>
+               <Card price={250}img={heroImage}/>
+               <Card price={75}/>
+               <Card price={90}/>
             </div>
         </div>
     </div>
