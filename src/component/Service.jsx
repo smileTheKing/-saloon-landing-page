@@ -26,7 +26,7 @@ const Service = () => {
     <div className='text-[#4A4041]'>
          <div className=" max-w-[1024px] min-h-[600px] flex-col w-full  mx-auto flex justify-between py-8 px-4 md:px-4">
 
-            <div className="flex   justify-between items-center py-6">
+            <div className="flex text-[#e14282]  justify-between items-center py-6">
                 <div>
                 <h6 className='font-sans  text-base'>our Serves</h6>
                 <h2 className='font-bold  text-2xl'>Explore our Serves</h2>
