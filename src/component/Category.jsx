@@ -5,21 +5,19 @@ import { FaAngleRight, FaArrowRight, FaSprayCan,FaBrush } from 'react-icons/fa';
 
 const Card = ({title,img,icon,desc})=>{
     return(
-        <div className="card flex text-[#e14282]  flex-col max-w-full lg:w-80 h-[400px] overflow-hidden border mx-auto rounded-md">
+        <div className="card flex text-[#774659]  flex-col max-w-full lg:w-80 h-[400px] overflow-hidden border mx-auto rounded-md">
         <img src={img ? img: heroImage} alt="card" className='w-[100%] h-[55%]  object-cover' />
         <div className='px-2 pt-8 pb-2 relative w-full'>
-        {icon?<div  className='bg-[#e14282] text-white absolute top-0 left-4 -mt-6 w-12 h-12 p-3 rounded-full'>
+        {icon?<div  className='bg-[#ac5678] text-white absolute top-0 left-4 -mt-6 w-12 h-12 p-3 rounded-full'>
             {icon}
-        </div>:<div  className='bg-[#e14282] absolute top-0 left-4 -mt-6 w-12 h-12 p-3 rounded-full'  color='#fff'/>}
+        </div>:<div  className='bg-[#ac5678] absolute top-0 left-4 -mt-6 w-12 h-12 p-3 rounded-full'  color='#fff'/>}
         <div className='flex items-center justify-center w-full '>
         <h2 className='font-bold text-2xl w-full whitespace-nowrap'>{title?title:'Make Up'} </h2>
         <hr className='h-[2.5px]  bg-[#e14282] w-full ml-2'/>
         </div>
-           
             <p className='font-normal text-sm py-1 w-full'>{desc?desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. In eaque voluptatum voluptate!"}</p>
             <button className='font-medium'>View more <FaAngleRight className=' inline-block'/></button>
-        </div>
-       
+        </div>    
     </div>
     )
 }
@@ -29,10 +27,10 @@ const Category = () => {
     <div className=' pt-8 lg:pt-48'>
          <div className=" max-w-[1024px] flex-col w-full  mx-auto flex justify-between  px-4 md:px-4">
 
-            <div className="flex justify-between text-[#e14282] items-center py-6">
+            <div className="flex justify-between text-[#000] items-center py-6">
                 <div>
-                <h6 className='font-sans  text-base'>our Category</h6>
-                <h2 className='font-bold  text-2xl'>Explore our Category</h2>
+                <h6 className='font-sans  text-base'>our Categories</h6>
+                <h2 className='font-bold  text-2xl'>Explore our Categories</h2>
                 </div>
                 <button className=" border px-3 py-2 capitalize rounded-md flex items-center ">see all <FaArrowRight className='inline-block ml-2'/></button>
             </div>

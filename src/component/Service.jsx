@@ -1,22 +1,26 @@
 import React from 'react';
 import { heroImage } from '../assets/assetsImage'
-import { FaAngleRight, FaArrowRight, FaMicroscope } from 'react-icons/fa';
+import { FaAngleRight, FaArrowRight, FaMicroscope, FaStar } from 'react-icons/fa';
 
-const Card = ()=>{
+const Card = ({title,img,icon,price})=>{
     return(
-        <div className="card  lg:w-80 border rounded-md">
-        <img src={heroImage} alt="card" className='w-[250px]' />
-        <div className='px-2 pt-8 pb-2 relative w-full'>
-        <FaMicroscope size={24} className='bg-[#4A4041] absolute top-0 left-4 -mt-6 w-12 h-12 p-3 rounded-full'  color='#fff'/>
-        <div className='flex items-center justify-center'>
-        <h2 className='font-bold text-2xl w-full'>Make Up </h2>
-        <hr className='h-[2.5px] -ml-4 bg-[#4A4041] w-full'/>
+        <div className="card flex text-[#774659]  flex-col w-full lg:w-80 h-[450px] overflow-hidden border mx-auto rounded-md">
+        <img src={img ? img: heroImage} alt="card" className='w-[100%] h-[55%]  object-cover' />
+        <div className='px-2 pb-2 relative w-full flex flex-col items-center justify-center gap-2 h-full'>
+        <div className='flex self-start'>
+            <FaStar/>
+            <FaStar/>
+            <FaStar/>
+            <FaStar/>
+            <FaStar />
         </div>
-           
-            <p className='font-normal text-sm py-1 w-full'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In eaque voluptatum voluptate!</p>
-            <button className='font-medium'>View more <FaAngleRight className=' inline-block'/></button>
-        </div>
+        <div className='flex items-center justify-center w-full '>
+        <h2 className='font-bold text-2xl w-full whitespace-nowrap'>{title?title:'Make Up'} </h2>
        
+        </div>
+            <p className='font-bold py-1 w-full text-[#774659]/70'>{price?price:" USD $100.00"}</p>
+            <button className='font-medium border-2 w-full py-2 px-4'>Book Appointment</button>
+        </div>    
     </div>
     )
 }
@@ -25,11 +29,10 @@ const Service = () => {
   return (
     <div className='text-[#4A4041]'>
          <div className=" max-w-[1024px] min-h-[600px] flex-col w-full  mx-auto flex justify-between py-8 px-4 md:px-4">
-
-            <div className="flex text-[#e14282]  justify-between items-center py-6">
+            <div className="flex text-[#000]  justify-between items-center py-6">
                 <div>
-                <h6 className='font-sans  text-base'>our Serves</h6>
-                <h2 className='font-bold  text-2xl'>Explore our Serves</h2>
+                <h6 className='font-sans  text-base'>our Services</h6>
+                <h2 className='font-bold  text-2xl'>Explore our Services</h2>
                 </div>
                 <button className=" border px-3 py-2 capitalize rounded-md flex items-center ">see all <FaArrowRight className='inline-block ml-2'/></button>
             </div>
@@ -41,9 +44,7 @@ const Service = () => {
                <Card img={heroImage}/>
                <Card/>
                <Card/>
-
             </div>
-
         </div>
     </div>
   )
