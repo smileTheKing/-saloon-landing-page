@@ -4,5 +4,8 @@
 
 body {
   @apply  bg-white;
+  @apply font-sans
 }
-
+.heading{
+  font-family: 'Old Standard TT', serif;
+}
