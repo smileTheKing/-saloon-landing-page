@@ -26,7 +26,7 @@ const Card = ({title,img,icon,desc})=>{
 
 const Category = () => {
   return (
-    <div className='text-[#e14282] '>
+    <div className='text-[#e14282] pt-8 lg:pt-48'>
          <div className=" max-w-[1024px] flex-col w-full  mx-auto flex justify-between  px-4 md:px-4">
 
             <div className="flex justify-between items-center py-6">
