@@ -9,9 +9,9 @@ const Hero = () => {
         
         <div className="w-full grid md:grid-cols-3 place-items-center px-4  xl:px-0">
           <div className="pt-8 lg:pt-2  col-span-2">
-            <h1 className="text-4xl  sm:text-5xl  lg:text-6xl capitalize font-serif  ">It's time to start your style with perfection</h1>
+            <h1 className="text-4xl  sm:text-6xl  lg:text-6xl capitalize font-serif  ">It's time to start your style with perfection</h1>
 
-            <p className="pt-8">
+            <p className="py-8">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Voluptate quae culpa non et nulla blanditiis nemo dolorem! Autem
               adipisci doloremque consequuntur, molestias nihil odio?
