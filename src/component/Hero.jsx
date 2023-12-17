@@ -27,9 +27,9 @@ const Hero = () => {
           <h3 className="font-bold capitalize text-[#e14282] text-2xl">Enhance Your Appearance At our salon</h3>
           <div className="grid grid-cols-2 lg:grid-cols-4  gap-4">
             <input type="text" placeholder="name" className="border placeholder:text-center sm:w-56 p-1 border-[#4A4041]/30 rounded"/>
-            <input type="number" placeholder="phone number" className="border placeholder:text-center sm:w-56 p-1 border-[#4A4041]/30 rounded"/>
-            <input type="time" className="border w-full sm:w-56 p-1 border-[#4A4041]/30 text-gray-400 rounded " placeholder="choose time"  />
-            <input type="date"className="border w-full sm:w-56 p-1 border-[#4A4041]/30 text-gray-400 rounded"placeholder="choose date" />
+            <input type="text" placeholder="phone number" className="border placeholder:text-center sm:w-56 p-1 border-[#4A4041]/30 rounded"/>
+            <input type="text" className="border sm:w-56 p-1 placeholder:text-gray-400 placeholder:text-center border-[#4A4041]/30 text-gray-400 rounded " placeholder="choose time"  />
+            <input type="text"className="border sm:w-56 p-1 border-[#4A4041]/30 placeholder:text-gray-400  placeholder:text-center rounded"placeholder="choose date" />
           </div>
           <button className="text-white bg-[#e14282] px-12 py-2 lg:w-96 capitalize rounded ">Book an Appointment</button>
         </div>
