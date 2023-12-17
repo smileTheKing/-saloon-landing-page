@@ -38,9 +38,9 @@ const Favorite = () => {
             </div>
 
             <div className="bottom grid sm:grid-cols-2 md:grid-cols-3 gap-8 w-full">
-               <Card price={150}img={heroImage}/>
-               <Card price={300}/>
-               <Card price={200}/>
+               <Card title={'Pedicure'} price={150}img={heroImage}/>
+               <Card title={'Hair Cutting'} price={300} />
+               <Card title={'Eyes Makeup'} price={200}/>
             </div>
         </div>
     </div>

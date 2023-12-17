@@ -1,5 +1,5 @@
 import React from 'react';
-import { heroImage } from '../assets/assetsImage'
+import { bridal, facial, heroImage, makeFace, nail, partmakeup, pedicure } from '../assets/assetsImage'
 import { FaAngleRight, FaArrowRight, FaMicroscope, FaStar } from 'react-icons/fa';
 
 const Card = ({title,img,icon,price})=>{
@@ -38,12 +38,12 @@ const Service = () => {
             </div>
 
             <div className="bottom grid sm:grid-cols-2 md:grid-cols-3 gap-8 w-full">
-               <Card price={150}img={heroImage}/>
-               <Card price={300}/>
-               <Card price={200}/>
-               <Card price={250}img={heroImage}/>
-               <Card price={75}/>
-               <Card price={90}/>
+               <Card title={'Party Makeup'} price={150}img={partmakeup}/>
+               <Card title={'Bridal Makeup'}  img={bridal} price={300}/>
+               <Card title={'Low Bum Style'} img={makeFace} price={200}/>
+               <Card  title={'Nail Painting'}price={250}img={nail}/>
+               <Card title={'Pedicure'} img={pedicure} price={75}/>
+               <Card title={'Facial'} img={facial} price={49}/>
             </div>
         </div>
     </div>
