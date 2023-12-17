@@ -31,7 +31,7 @@ const Hero = () => {
             <input type="text" className="border sm:w-56 p-1 placeholder:text-gray-400 placeholder:text-center border-[#4A4041]/30 text-gray-400 rounded " placeholder="choose time"  />
             <input type="text"className="border sm:w-56 p-1 border-[#4A4041]/30 placeholder:text-gray-400  placeholder:text-center rounded"placeholder="choose date" />
           </div>
-          <button className="text-white bg-[#e14282] px-12 py-2 lg:w-96 capitalize rounded ">Book an Appointment</button>
+          <button className="text-white font-medium bg-[#e14282] px-12 py-2 lg:w-96 capitalize rounded ">Book an Appointment</button>
         </div>
       </div>
     </div>
