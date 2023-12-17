@@ -9,7 +9,7 @@ import Service from "./component/Service"
 function App() {
  
   return (
-    <div>
+    <>
      <Navbar/>
      <Hero/>
      <Category/>
@@ -17,7 +17,7 @@ function App() {
      <Favorite/>
      <Newletter/>
      <Footer/>
-    </div>
+    </>
   )
 }
 
