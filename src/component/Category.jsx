@@ -29,8 +29,8 @@ const Category = () => {
 
             <div className="flex justify-between text-[#000] items-center py-6">
                 <div>
-                <h6 className='font-sans  text-base'>our Categories</h6>
-                <h2 className='font-bold  text-2xl'>Explore our Categories</h2>
+                <h6 className='font-sans md:text-base'>our Categories</h6>
+                <h2 className='font-bold  md:text-2xl'>Explore our Categories</h2>
                 </div>
                 <button className=" border px-3 py-2 capitalize rounded-md flex items-center ">see all <FaArrowRight className='inline-block ml-2'/></button>
             </div>

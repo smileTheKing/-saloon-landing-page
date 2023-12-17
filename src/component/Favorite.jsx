@@ -31,8 +31,8 @@ const Favorite = () => {
          <div className=" max-w-[1024px]  flex-col w-full  mx-auto flex justify-between py-8 px-4 lg:px-0 ">
             <div className="flex text-[#000]  justify-between items-center py-6">
                 <div>
-                <h6 className='font-sans  text-base'>Favorite Services</h6>
-                <h2 className='font-bold  text-2xl'>Our Favorite Services</h2>
+                <h6 className='font-sans  md:text-base'>Favorite Services</h6>
+                <h2 className='font-bold  md:text-2xl'>Our Favorite Services</h2>
                 </div>
                 <button className=" border px-3 py-2 capitalize rounded-md flex items-center ">see all <FaArrowRight className='inline-block ml-2'/></button>
             </div>
