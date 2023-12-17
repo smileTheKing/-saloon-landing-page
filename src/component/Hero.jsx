@@ -23,7 +23,7 @@ const Hero = () => {
             
         </div>
 
-        <div className="w-full lg:absolute -bottom-[190px]  left-0 right-0 h-[240px] bg-white text-black lg:rounded-md place-items-center grid px-4 border-[1.5px] border-[#e14282]/50 ">
+        <div className="w-full lg:absolute -bottom-[180px]  left-0 right-0 h-[240px] bg-white text-black lg:rounded-md place-items-center grid px-4 border-[1.5px] border-[#e14282]/50 ">
           <h3 className="font-bold capitalize text-[#e14282] text-2xl">Enhance Your Appearance At our salon</h3>
           <div className="grid grid-cols-2 lg:grid-cols-4  gap-4">
             <input type="text" placeholder="name" className="border placeholder:text-center sm:w-56 p-1 border-[#4A4041]/30 rounded"/>
