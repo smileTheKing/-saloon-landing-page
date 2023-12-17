@@ -1,5 +1,5 @@
 import React from 'react';
-import { heroImage } from '../assets/assetsImage'
+import { cutting, heroImage, manicure } from '../assets/assetsImage'
 import { FaAngleRight, FaArrowRight, FaMicroscope, FaStar } from 'react-icons/fa';
 
 const Card = ({title,img,icon,price})=>{
@@ -28,7 +28,7 @@ const Card = ({title,img,icon,price})=>{
 const Favorite = () => {
   return (
     <div className='text-[#4A4041]'>
-         <div className=" max-w-[1024px] min-h-[600px] flex-col w-full  mx-auto flex justify-between py-8 px-4 md:px-4">
+         <div className=" max-w-[1024px] min-h-[600px] flex-col w-full  mx-auto flex justify-between py-8 px-4 ">
             <div className="flex text-[#000]  justify-between items-center py-6">
                 <div>
                 <h6 className='font-sans  text-base'>Favorite Services</h6>
@@ -38,8 +38,8 @@ const Favorite = () => {
             </div>
 
             <div className="bottom grid sm:grid-cols-2 md:grid-cols-3 gap-8 w-full">
-               <Card title={'Pedicure'} price={150}img={heroImage}/>
-               <Card title={'Hair Cutting'} price={300} />
+               <Card title={'manicure'} price={150}img={manicure}/>
+               <Card title={'Hair Cutting'} img={cutting} price={300} />
                <Card title={'Eyes Makeup'} price={200}/>
             </div>
         </div>
