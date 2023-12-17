@@ -5,7 +5,7 @@ const Newletter = () => {
     <div className="w-full bg-[#e14282]/80 lg:my-12">
       <div className="max-w-[1024px] h-[200px] mx-auto w-full flex flex-col justify-center py-4 px-4">
         <div className="grid md:grid-cols-2 gap-4 lg:gap-0">
-          <div className="flex font-semibold capitalize text-white flex-col md:text-3xl">
+          <div className="flex font-semibold capitalize text-white flex-col text-2xl md:text-3xl">
             <h3>subscribe our newsletter</h3>
             <h3>To get more updates!</h3>
           </div>
