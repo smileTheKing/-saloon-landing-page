@@ -30,11 +30,11 @@ const Navbar = () => {
         <div className="flex w-full pt-6 items-center justify-between ">
           <h1 className="w-full text-4xl font-bold">Salon</h1>
           <ul className="hidden md:flex justify-between items-center gap-4 font-medium">
-            <li>Home</li>
-            <li>Beauty</li>
-            <li>Galley</li>
-            <li>Salon</li>
-            <li>About</li>
+            <li className="uppercase font-medium">Home</li>
+            <li className="uppercase font-medium">Beauty</li>
+            <li className="uppercase font-medium">Galley</li>
+            <li className="uppercase font-medium">Salon</li>
+            <li className="uppercase font-medium">About</li>
           </ul>
 
           {!nav && (
@@ -62,11 +62,11 @@ const Navbar = () => {
               className={nav?"lg:hidden absolute right-0 text-white top-2 ease-in-out duration-150 ":'right-[-100%] ease-in-out duration-150'}
               onClick={handleNav}
             />
-            <li className="border-b py-2">Home</li>
-            <li className="border-b py-2">Beauty</li>
-            <li className="border-b py-2">Galley</li>
-            <li className="border-b py-2">Salon</li>
-            <li className="border-b py-2">About</li>
+            <li className="border-b uppercase py-2">Home</li>
+            <li className="border-b uppercase py-2">Beauty</li>
+            <li className="border-b uppercase py-2">Galley</li>
+            <li className="border-b uppercase py-2">Salon</li>
+            <li className="border-b uppercase py-2">About</li>
           </ul>
         </div>
       </div>
