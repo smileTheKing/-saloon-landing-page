@@ -5,7 +5,7 @@ import { FaAngleRight, FaArrowRight, FaSprayCan,FaBrush } from 'react-icons/fa';
 
 const Card = ({title,img,icon,desc})=>{
     return(
-        <div className="card flex text-[#774659]  flex-col max-w-full lg:w-80 h-[400px] overflow-hidden border mx-auto rounded-md">
+        <div className="card flex text-[#774659] hover:scale-105 ease-in-out duration-150  flex-col max-w-full lg:w-80 h-[400px] overflow-hidden border mx-auto rounded-md">
         <img src={img ? img: heroImage} alt="card" className='w-[100%] h-[55%]  object-cover' />
         <div className='px-2 pt-8 pb-2 relative w-full'>
         {icon?<div  className='bg-[#ac5678] text-white absolute top-0 left-4 -mt-6 w-12 h-12 p-3 rounded-full'>

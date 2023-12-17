@@ -17,7 +17,7 @@ const Hero = () => {
               adipisci doloremque consequuntur, molestias nihil odio?
             </p>
           </div>  
-          <div className="  lg:py-4">
+          <div className="lg:py-4">
           <img src={heroImage} alt="hero" className=" w-[100%] lg:w-[100%] h-full -z-10" />
             </div>   
             

@@ -10,6 +10,8 @@ import pedicure from './pedicure.jpeg';
 import bridal from './bridal.jpeg';
 import cutting from './cuttinghair.jpeg';
 import manicure from './manicure.jpg'
+import eye from './makeeye.jpg'
+
 
 export{
     heroImage,
@@ -23,5 +25,6 @@ export{
     pedicure,
     bridal,
     cutting,
-    manicure
+    manicure,
+    eye
 }
