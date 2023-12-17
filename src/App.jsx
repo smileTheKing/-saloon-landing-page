@@ -1,4 +1,5 @@
 import Category from "./component/Category"
+import Favorite from "./component/Favorite"
 import Footer from "./component/Footer"
 import Hero from "./component/Hero"
 import Navbar from "./component/Navbar"
@@ -13,6 +14,7 @@ function App() {
      <Hero/>
      <Category/>
      <Service/>
+     <Favorite/>
      <Newletter/>
      <Footer/>
     </div>

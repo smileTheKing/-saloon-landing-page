@@ -25,14 +25,14 @@ const Card = ({title,img,icon,price})=>{
     )
 }
 
-const Service = () => {
+const Favorite = () => {
   return (
     <div className='text-[#4A4041]'>
          <div className=" max-w-[1024px] min-h-[600px] flex-col w-full  mx-auto flex justify-between py-8 px-4 md:px-4">
             <div className="flex text-[#000]  justify-between items-center py-6">
                 <div>
-                <h6 className='font-sans  text-base'>our Services</h6>
-                <h2 className='font-bold  text-2xl'>Explore our Services</h2>
+                <h6 className='font-sans  text-base'>Favorite Services</h6>
+                <h2 className='font-bold  text-2xl'>Our Favorite Services</h2>
                 </div>
                 <button className=" border px-3 py-2 capitalize rounded-md flex items-center ">see all <FaArrowRight className='inline-block ml-2'/></button>
             </div>
@@ -41,13 +41,10 @@ const Service = () => {
                <Card price={150}img={heroImage}/>
                <Card price={300}/>
                <Card price={200}/>
-               <Card price={250}img={heroImage}/>
-               <Card price={75}/>
-               <Card price={90}/>
             </div>
         </div>
     </div>
   )
 }
 
-export default Service
+export default Favorite

@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="max-w-[1024px] mx-auto py-16 px-4 grid lg:grid-cols-2 gap-8 text-[#4A4041]">
         <div className="col-span-">
           <h1 className="w-full text-3xl font-bold text-[#e14282] uppercase">
-            Reacat.
+            Salon
           </h1>
           <p className="py-4 text-[#4A4041]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta iure
@@ -34,8 +34,8 @@ const Footer = () => {
             <ul>
               <li className="py-2 text-sm ">Home</li>
               <li className="py-2 text-sm ">Services</li>
-              <li className="py-2 text-sm ">Commerce</li>
-              <li className="py-2 text-sm ">Insights</li>
+              <li className="py-2 text-sm ">Gallery</li>
+              <li className="py-2 text-sm ">Beauty</li>
             </ul>
           </div>
 
@@ -45,11 +45,11 @@ const Footer = () => {
           <div>
             <h6 className="font-medium text-[#4A4041]">Services</h6>
             <ul>
-              <li className="py-2 text-sm">About</li>
-              <li className="py-2 text-sm">Blog</li>
+              <li className="py-2 text-sm">Make Up</li>
+              <li className="py-2 text-sm">Hair-Styling</li>
               <li className="py-2 text-sm">Jobs</li>
               <li className="py-2 text-sm">Press</li>
-              <li className="py-2 text-sm">Careers</li>
+              <li className="py-2 text-sm">Pricing</li>
             </ul>
           </div>
         
@@ -57,9 +57,9 @@ const Footer = () => {
         <div>
             <h6 className="font-medium text-[#4A4041]">Contact Us</h6>
             <ul>
-              <li className="py-2 text-sm">Claim</li>
-              <li className="py-2 text-sm">Policy</li>
-              <li className="py-2 text-sm">Terms</li>
+              <li className="py-2 text-sm">123 ave, Brooklyn Blvd 55430 MN</li>
+              <li className="py-2 text-sm">abcd@youremail.com</li>
+              <li className="py-2 text-sm">612-300-1707</li>
             </ul>
           </div>
 
