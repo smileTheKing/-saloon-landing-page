@@ -46,11 +46,11 @@ const Navbar = () => {
           )}
         </div>
 
-        <div className={nav?"bg-black/50  md:hidden   fixed top-0 w-[100%]  h-full left-0 z-50  ":"fixed ease-in-out duration-200  left-[-100%]"}>
+        <div className={nav?"bg-black/50  md:hidden   fixed top-0 w-[100%]  h-full left-0 z-50  ":"fixed ease-in-out duration-150  left-[-100%]"}>
           <ul
             className={
               nav
-                ? "flex flex-col px-4   bg-white w-[70%] h-full text-[#e14282] gap-4 font-medium ease-in-out left-0 duration-500"
+                ? "flex flex-col px-4   bg-white w-[70%] h-full text-[#e14282] gap-4 font-medium ease-in-out left-0 duration-150"
                 : " fixed  ease-in-out duration-100 left-[-100%]"
             }
           >
@@ -59,7 +59,7 @@ const Navbar = () => {
             </h1>
             <AiOutlineClose
               size={30}
-              className={nav?"lg:hidden absolute right-0 text-white top-2 ease-in-out duration-150 ":'right-[-100%] ease-in-out duration-500'}
+              className={nav?"lg:hidden absolute right-0 text-white top-2 ease-in-out duration-150 ":'right-[-100%] ease-in-out duration-150'}
               onClick={handleNav}
             />
             <li className="border-b py-2">Home</li>
