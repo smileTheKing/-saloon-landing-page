@@ -11,7 +11,8 @@ import bridal from './bridal.jpeg';
 import cutting from './cuttinghair.jpeg';
 import manicure from './manicure.jpg'
 import eye from './makeeye.jpg'
-
+import tiktok from './tiktok.png'
+import google from './google.png'
 
 export{
     heroImage,
@@ -26,5 +27,7 @@ export{
     bridal,
     cutting,
     manicure,
-    eye
+    eye,
+    tiktok,
+    google
 }

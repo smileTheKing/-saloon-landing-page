@@ -1,9 +1,12 @@
 import React, { useState } from "react";
-import { FaHeart, FaBell, FaAngleDown } from "react-icons/fa";
+import { FaHeart, FaBell, FaAngleDown, FaCartPlus } from "react-icons/fa";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  
+
+
 
   const handleNav = () => {
     setNav(!nav);
@@ -21,7 +24,9 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <FaHeart size={18} />
+           
+            
+            <div className="flex items-center gap-1 justify-center"><FaCartPlus size={18} />{3}</div>
             <FaBell size={18} />
             <button className="border  px-4 font-medium rounded">Login</button>
           </div>

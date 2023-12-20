@@ -6,8 +6,8 @@ const Hero = () => {
     <div className="mx-auto  text-white  relative">
       <div className="bg-gradient-to-r from-[#e14282] to-[#f4aed1] h-full lg:h-[500px] w-full absolute -z-10" />
       <div className="max-w-[1024px] w-full mx-auto flex flex-col lg:h-[450px]  pt-8 lg:pt-12 relative">
-        <div className="w-full grid md:grid-cols-3 place-items-center px-4  xl:px-0">
-          <div className="pt-8 lg:pt-2  col-span-2">
+        <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 place-items-center px-4  xl:px-0">
+          <div className="pt-8 lg:pt-2  lg:col-span-2">
             <h1 className="text-5xl  lg:w-[80%] font-bold  lg:text-6xl capitalize font-serif  ">
               It's time to start your style with perfection
             </h1>
@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-full lg:absolute -bottom-[180px]  left-0 right-0 h-[240px] bg-white text-black lg:rounded-md place-items-center grid py-4 px-4 border-[1.5px] border-[#e14282]/50 ">
+        <div className="w-full lg:w-[98%] xl:w-full mx-auto lg:absolute -bottom-[180px]  left-0 right-0 min-h-[240px] bg-white text-black lg:rounded-md place-items-center grid py-4 px-4 border-[1.5px] border-[#e14282]/50 ">
           <h3 className="font-bold capitalize text-center text-[#e14282] text-2xl">
             Enhance Your Appearance At our salon
           </h3>
