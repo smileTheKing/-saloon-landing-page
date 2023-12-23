@@ -3,12 +3,13 @@ import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { FaFacebook, FaGoogle, FaTiktok } from 'react-icons/fa'
 import { google, tiktok } from '../assets/assetsImage'
 import { useAppContext } from '../util/context/AppContext'
+import { Link } from 'react-router-dom'
 
 const Registration = ({}) => {
     const {handleIsLock} = useAppContext()
   return (
-    <div className='w-full h-screen flex flex-col  overflow-auto z-50 md:absolute relative top-0 bottom-0   bg-transparent md:bg-gray-500/70  items-center justify-center'>
-        <button onClick={handleIsLock} className="absolute flex justify-center items-center rounded-full  top-0 w-[50px]  my-8 mx-8  h-[50px] right-0  z-50 bg-slate-50/80 "> <AiOutlineCloseCircle  className='text-black font-bold' size={30}/></button>
+    <div className='w-full h-screen flex flex-col  overflow-auto z-50 md:absolute relative top-0 bottom-0   bg-transparent md:bg-gray-500/70 backdrop-blur-lg  items-center justify-center'>
+        <button onClick={handleIsLock} className="absolute flex justify-center items-center rounded-full  top-0 w-[50px]  my-8 mx-8  h-[50px] right-0  z-50 bg-slate-50/80 "><Link to={'/'}><AiOutlineCloseCircle  className='text-black font-bold' size={30}/></Link> </button>
 
 
         <div className="w-full relative h-full md:max-w-[500px] md:h-[500px] z-40  bg-white md:shadow rounded-lg flex flex-col gap-y-6 justify-center items-center   ">
@@ -34,7 +35,7 @@ const Registration = ({}) => {
         </div>
         <div className="privacy">
 
-            <p className='mt-8'>Term and Coondition</p>
+            <p className='mt-8'>By clicking continue, you agree to our Terms of Service and Privacy Policy.</p>
         </div>
         </div>
     </div>

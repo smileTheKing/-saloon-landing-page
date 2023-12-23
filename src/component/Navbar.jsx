@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { FaHeart, FaBell, FaAngleDown, FaCartPlus } from "react-icons/fa";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  
+
 
 
 
@@ -13,7 +14,7 @@ const Navbar = () => {
   };
   return (
     <div className=" w-full text-white bg-gradient-to-r from-[#e14282] to-[#f4aed1] ">
-      <div className=" max-w-[1024px] flex-col w-full h-24 mx-auto flex justify-between px-4 xl:px-0">
+      <div className=" max-w-[1024px] flex-col w-full min-h-24 mx-auto flex justify-between px-4 xl:px-0">
         <div className="flex w-full justify-between items-center py-4">
           <div className="flex gap-2">
             <div className="border flex items-center  px-2 rounded">
@@ -32,8 +33,8 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex w-full pt-6 items-center justify-between ">
-          <h1 className="w-full text-4xl font-bold">Salon</h1>
+        <div className="flex w-full py-4 items-center justify-between ">
+          <h1 className="w-full text-4xl font-bold"><Link to={'/'}>Salon</Link></h1>
           <ul className="hidden md:flex justify-between items-center gap-4 font-medium">
             <li className="uppercase font-medium">Home</li>
             <li className="uppercase font-medium">Beauty</li>

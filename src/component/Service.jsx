@@ -1,6 +1,7 @@
 import React from 'react';
 import { bridal, facial, heroImage, makeFace, nail, partmakeup, pedicure } from '../assets/assetsImage'
 import { FaAngleRight, FaArrowRight, FaMicroscope, FaStar } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Card = ({title,img,icon,price})=>{
     return(
@@ -19,7 +20,8 @@ const Card = ({title,img,icon,price})=>{
        
         </div>
             <p className='font-bold py-1 w-full text-[#774659]/70'>{price?`$${price}.00`:" USD $100.00"}</p>
-            <button className='font-medium bg-[#e142828e] border-2 w-full py-2 px-4 rounded-md text-white'>Book Appointment</button>
+            <Link className='w-full' to={'/booking'}><button className='font-medium bg-[#e142828e] border-2 w-full py-2 px-4 rounded-md text-white'>Book Appointment</button></Link>
+            
         </div>    
     </div>
     )
