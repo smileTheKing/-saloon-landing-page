@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { bridal } from "../assets/assetsImage";
 import { DayPicker } from "react-day-picker";
-import TimePicker from "react-time-picker";
+
 import { differenceInCalendarDays, format } from "date-fns";
 
 import {
@@ -25,6 +25,7 @@ const Booking = () => {
     // console.log(format(value.currentTarget?.value,'pp'));
     // console.log(t.currentTarget.value);
     setSelectTime(t.currentTarget.value);
+    setTime(null)
   }
 
   function handleDate(value) {
