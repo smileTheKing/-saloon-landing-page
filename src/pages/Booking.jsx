@@ -66,7 +66,7 @@ const Booking = () => {
             <img src={bridal} alt="/" className="h-full w-full object-cover" />
           </div>
 
-          <div className="flex md:flex-col justify-center lg:justify-start  w-full h-full">
+          <div className="flex flex-col justify-center lg:justify-start  w-full h-full">
             <DayPicker
               className=" "
               mode={"single"}
