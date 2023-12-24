@@ -12,6 +12,7 @@ import {
   AiOutlineDollarCircle,
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import Favorite from "../component/Favorite";
 //import { DayPicker, Row, RowProps } from 'react-day-picker';
 
 const Booking = () => {
@@ -25,7 +26,7 @@ const Booking = () => {
     // console.log(format(value.currentTarget?.value,'pp'));
     // console.log(t.currentTarget.value);
     setSelectTime(t.currentTarget.value);
-    setTime(null)
+    setTime(time)
   }
 
   function handleDate(value) {
@@ -62,9 +63,9 @@ const Booking = () => {
         <h1 className="py-8  font-bold text-3xl text-center italic font-serif">
           Booking Bridal Makeup
         </h1>
-        <div className="grid md:grid-cols-3 w-full  border-2  relative   rounded-lg   h-full">
+        <div className="grid md:grid-cols-3 w-full  border-2  relative   rounded-lg mb-24 overflow-hidden  min-h-[500px]">
           <div className=" object-fit flex-grow w-full  ">
-            <img src={bridal} alt="/" className="h-full w-full object-cover" />
+            <img src={bridal} alt="/" className="h-full w-full object-cover " />
           </div>
 
           <div className="flex flex-col justify-center lg:justify-start  w-full h-full">
@@ -140,13 +141,15 @@ const Booking = () => {
               className="w-full  absolute bottom-4 left-0 right-0 p-4"
               to={"/booking"}
             >
-              <button className="font-medium bg-[#e142828e] border-2 w-full py-2 px-4 rounded-md text-white">
+              <button className="font-medium bg-[#e142828e] duration-300 hover:scale-105 transition-all ease-in-out  hover:bg-pink-300 border-2 w-full py-2 px-4 rounded-md text-white">
                 Submit Booking
               </button>
             </Link>
           </div>
         </div>
+        <Favorite/>
       </div>
+     
     </div>
   );
 };

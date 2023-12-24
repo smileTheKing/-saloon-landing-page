@@ -13,6 +13,7 @@ import manicure from './manicure.jpg'
 import eye from './makeeye.jpg'
 import tiktok from './tiktok.png'
 import google from './google.png'
+import logo from './logo.png'
 
 export{
     heroImage,
@@ -29,5 +30,6 @@ export{
     manicure,
     eye,
     tiktok,
-    google
+    google,
+    logo
 }
