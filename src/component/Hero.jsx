@@ -64,12 +64,12 @@ const Hero = () => {
           // backgroundOrigin:'border-box',
          // backgroundPositionX:'500px'
         }}
-        className="bg-bottom h-[500px] md:bg-[center_right_-10rem] mx-auto w-full lg:h-screen  xl:bg-right bg-contain relative"
+        className="bg-bottom h-[500px] md:bg-[center_right_-1rem] mx-auto w-full lg:h-screen  xl:bg-right bg-contain relative"
       >
         <div className="flex max-w-[1048px] mx-auto relative   flex-col  justify-center w-full h-full">
-          <div className="absolute md:relative bottom-0 md:w-[60%] lg:w-[80%] w-full text-center md:text-start  min-h-1/2    grid   mt-24 md:-mt-24 px-4">
+          <div className="absolute md:relative bottom-0 md:w-[60%] lg:w-[70%] w-full text-center md:text-start  min-h-1/2    grid   mt-24 md:-mt-0  lg:-mt-24 px-4">
           <h1 className=" text-md py-4">Welcome To Your Luxury Beauty Experience</h1>
-          <h1 className=" text-4xl break-words  font-bold md:text-6xl  xl:text-6xl capitalize font-serif  ">
+          <h1 className=" text-4xl break-words  font-bold md:text-5xl lg:text-6xl  xl:text-7xl capitalize font-serif  ">
             It's time to start your style with perfection
           </h1>
 
@@ -77,7 +77,7 @@ const Hero = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate
             quae culpa non et nulla blanditiis nemo dolorem! 
           </p>
-          <button className="bg-white text-pink-400 m px-6 py-4 rounded-md text-lg my-4 md:w-fit font-medium ">Get started</button>
+          <button className="bg-white text-pink-400 m px-6 py-4 rounded-md text-lg my-4 md:w-[40%] font-medium  ">Get started</button>
           </div>
         </div>
       </div>
