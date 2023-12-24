@@ -27,8 +27,8 @@ const Card = ({title,img,icon,price})=>{
 
 const Favorite = () => {
   return (
-    <div className='text-[#4A4041]'>
-         <div className=" max-w-[1024px]  flex-col w-full  mx-auto flex justify-between py-8 px-4 xl:px-0 ">
+    <div className='text-[#4A4041] '>
+         <div className=" max-w-[1024px]  flex-col w-full  mx-auto flex justify-between  pb-8 px-4 xl:px-0 ">
             <div className="flex text-[#000]  justify-between items-center py-6">
                 <div>
                 <h6 className='font-sans  md:text-base text-[#e14282e6] '>Favorite Services</h6>

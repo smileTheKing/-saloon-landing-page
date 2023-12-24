@@ -55,7 +55,7 @@ import { bridal, heroImage } from "../assets/assetsImage";
 }
 const Hero = () => {
   return (
-    <div className="mx-auto w-full  bg-top bg-gradient-to-r from-[#e14282] to-[#f4aed1]  pt-28 text-white  relative">
+    <div className="mx-auto w-full  bg-top bg-gradient-to-r from-[#e14282] to-[#f4aed1]  pt-28 md:mb-28  text-white  relative">
       <div
         style={{
           backgroundImage: `url(${heroImage})`,
@@ -86,7 +86,7 @@ const Hero = () => {
           <h3 className="font-bold capitalize text-center text-[#e14282] text-2xl">
             Enhance Your Appearance At our salon
           </h3>
-          <div className="grid grid-cols-2 lg:grid-cols-4  gap-4">
+          <div className="grid grid-cols-2 xl:grid-cols-4  gap-4">
             <input
               type="text"
               placeholder="name"
