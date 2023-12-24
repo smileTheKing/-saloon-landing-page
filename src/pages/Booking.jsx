@@ -59,7 +59,7 @@ const Booking = () => {
 
   return (
     <div className="w-full miin-h-screen bg-inherit">
-      <div className="max-w-[1024px] w-full  flex flex-col items-center justify-center mx-auto pt-12 pb-36 px-4 border-b mb-12">
+      <div className="max-w-[1024px] w-full  flex flex-col items-center justify-center mx-auto  py-36 px-4 border-b mb-12">
         <h1 className="py-8  font-bold text-3xl text-center italic font-serif">
           Booking Bridal Makeup
         </h1>

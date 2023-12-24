@@ -14,7 +14,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className=" w-full text-white  absolute z-50 ">
+    <div className=" w-full text-white  absolute z-50 bg-gradient-to-r from-[#e14282] to-[#f4aed1] ">
       <div className=" max-w-[1024px] flex-col w-full mx-auto items-center flex justify-between px-4 xl:px-0">
         <div className=" w-full flex justify-between items-center py-4">
           <div className="flex gap-2">
