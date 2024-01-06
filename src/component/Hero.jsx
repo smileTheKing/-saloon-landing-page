@@ -56,6 +56,7 @@ import { bridal, heroImage } from "../assets/assetsImage";
 const Hero = () => {
   return (
     <div className="mx-auto w-full  bg-top bg-gradient-to-r from-[#e14282] to-[#f4aed1]  pt-28 md:mb-28  text-white  relative">
+
       <div
         style={{
           backgroundImage: `url(${heroImage})`,
@@ -77,7 +78,7 @@ const Hero = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate
             quae culpa non et nulla blanditiis nemo dolorem! 
           </p>
-          <button className="bg-white text-pink-400 m px-6 py-4 rounded-md text-lg my-4 md:w-[40%] font-medium  ">Get started</button>
+          <button className="bg-white hover:scale-105 duration-150 text-pink-400 m px-6 py-4 rounded-md text-lg my-4 md:w-[40%] font-medium  ">Get started</button>
           </div>
         </div>
       </div>
@@ -108,7 +109,7 @@ const Hero = () => {
               placeholder="choose date"
             />
           </div>
-          <button className="text-white font-medium bg-[#e14282] px-12 py-2 lg:w-96 capitalize rounded ">
+          <button className="text-white  font-medium bg-[#e14282] px-12 py-2 lg:w-96 capitalize rounded ">
             Book an Appointment
           </button>
         </div>

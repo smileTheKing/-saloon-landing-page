@@ -5,10 +5,15 @@ import { DayPicker } from "react-day-picker";
 import { differenceInCalendarDays, format } from "date-fns";
 
 import {
+  AiFillBackward,
   AiFillClockCircle,
+  AiFillCloseCircle,
+  AiFillLeftSquare,
+  AiOutlineArrowLeft,
   AiOutlineCalculator,
   AiOutlineCalendar,
   AiOutlineClockCircle,
+  AiOutlineCloseCircle,
   AiOutlineDollarCircle,
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
@@ -60,11 +65,15 @@ const Booking = () => {
   return (
     <div className="w-full miin-h-screen bg-inherit">
       <div className="max-w-[1024px] w-full  flex flex-col items-center justify-center mx-auto  py-36 px-4 border-b mb-12">
-        <h1 className="py-8  font-bold text-3xl text-center italic font-serif">
-          Booking Bridal Makeup
-        </h1>
+        <div className="py-8 flex w-full justify-between items-center">
+          
+          <h1 className=" font-bold text-3xl text-center italic font-serif">Booking Bridal Makeup</h1>
+          <button className="bg-slate-900 p-2 rounded-full text-white font-semibold md:flex w-32 h-12 items-center gap-2 justify-center hover:scale-105 transition-all hidden">
+          <AiOutlineArrowLeft className="font-bold" size={24}/> 
+            <Link to={'/'}>Go Back</Link></button>
+        </div>
         <div className="grid md:grid-cols-3 w-full  border-2  relative   rounded-lg mb-24 overflow-hidden  min-h-[500px]">
-          <div className=" object-fit flex-grow w-full  ">
+          <div className=" object-fit flex-grow w-full">
             <img src={bridal} alt="/" className="h-full w-full object-cover " />
           </div>
 

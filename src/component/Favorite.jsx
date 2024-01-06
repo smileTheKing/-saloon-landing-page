@@ -4,7 +4,7 @@ import { FaAngleRight, FaArrowRight, FaMicroscope, FaStar } from 'react-icons/fa
 
 const Card = ({title,img,icon,price})=>{
     return(
-        <div className="card shadow-md flex text-[#774659] hover:scale-105 ease-in-out duration-150  flex-col w-full lg:w-80 h-[400px] overflow-hidden border mx-auto rounded-md">
+        <div className="card shadow flex text-[#774659] hover:scale-105 ease-in-out duration-150  flex-col w-full lg:w-80 h-[400px] overflow-hidden border mx-auto rounded-md">
         <img src={img ? img: heroImage} alt="card" className='w-[100%] h-[55%]  object-cover' />
         <div className='px-2 pb-2 relative w-full flex flex-col items-center justify-center gap-2 h-full'>
         <div className='flex self-start'>

@@ -35,13 +35,13 @@ const Navbar = () => {
         </div>
 
         <div className="flex w-full h-full items-center justify-between ">
-          <h1 className="w-full text-4xl font-bold"><Link to={'/'}><img width={60} height={60} src={logo}/></Link></h1>
+        <Link to={'/'} className="flex items-center font-serif justify-center"><h1 className="w-full text-4xl font-bold">SALON</h1><img width={60} height={60} src={logo}/> </Link>
           <ul className="hidden md:flex justify-between items-center gap-4 font-medium">
-            <li className="uppercase font-medium">Home</li>
-            <li className="uppercase font-medium">Beauty</li>
-            <li className="uppercase font-medium">Galley</li>
-            <li className="uppercase font-medium">Salon</li>
-            <li className="uppercase font-medium">About</li>
+            <li className="uppercase font-medium cursor-pointer"><Link to={'/'}>Home</Link></li>
+            <li className="uppercase font-medium cursor-pointer">Beauty</li>
+            <li className="uppercase font-medium cursor-pointer">Galley</li>
+            <li className="uppercase font-medium cursor-pointer">Salon</li>
+            <li className="uppercase font-medium cursor-pointer">About</li>
           </ul>
 
           {!nav && (
